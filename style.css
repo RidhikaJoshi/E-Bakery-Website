@@ -149,13 +149,6 @@ body
     /* background-color: aquamarine; */
     /* margin:1em; */
 }
-@media(max-width:500px)
-{
-    #about-section #about
-    {  
-        height:32em;
-     }
-}
 #about-section #about span
 {
     color:black;
@@ -165,19 +158,27 @@ body
     word-spacing: 1px;;
     word-break: break-all;
     background-color: bisque;
-   border-radius: 50px;
-
+    border-radius: 50px;
+    
 }
 @media(max-width:1000px)
 {
     #about-section{
         margin:4%;
     }
-     #about
+    #about
     {
         height:20em;
         width:70%;
     } 
+}
+@media(max-width:500px)
+{
+    #about-section #about
+    {  
+        height:30em;
+        text-align: center;
+     }
 }
 
 
@@ -518,6 +519,9 @@ body
         margin:0.6em;
         font-size: medium;
     }
+    #time span {
+        font-size:medium;
+    }
 }
 #services-section h1{
     color:black;
@@ -669,7 +673,7 @@ body
     }
 }
 
-@media(max-width:800px)
+@media(max-width:600px)
 {
     #myname
     {
