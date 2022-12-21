@@ -510,6 +510,14 @@ body
         width:85%;
         margin:6%;
     }
+    #left #time
+    {
+        display: inline-block;
+        height:36px;
+        width:56px;
+        margin:0.6em;
+        font-size: medium;
+    }
 }
 #services-section h1{
     color:black;
@@ -658,5 +666,15 @@ body
         padding-left:10px;
         /* flex-wrap: wrap;
         flex-direction: row; */
+    }
+}
+
+@media(max-width:800px)
+{
+    #myname
+    {
+        font-size:medium;
+        font-weight: 400;
+        text-align: center;
     }
 }
