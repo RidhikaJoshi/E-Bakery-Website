@@ -153,7 +153,7 @@ body
 {
     #about-section #about
     {  
-        height:26em;
+        height:28em;
      }
 }
 #about-section #about span
@@ -329,7 +329,7 @@ body
     height:100%;
     width:45%;
     border-radius: 4%;
-    background-color:#EEDDCC;
+    /* background-color:#EEDDCC; */
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -560,7 +560,7 @@ body
     {
         margin:8%;
         width:85%;
-        height:70em;
+        height:80em;
     }
     #service-container div
     {
@@ -572,11 +572,12 @@ body
     #service-container
     {
         margin:8%;
-        height:135em;
+        height:145em;
     }
     #service-container div
     {
         width:100%;
+        height:18em;
     }
 }
 
