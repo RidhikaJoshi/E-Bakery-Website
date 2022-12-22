@@ -67,6 +67,83 @@ body
 #header-section li a:hover{
     color:black;
 }
+.checkbtn
+{
+    font-size:larger;
+    color:#2F2120;
+    float:right;
+    margin:10px 20px 20px 20px;
+    padding: 5px;
+    cursor:pointer;
+    display:none ;
+}
+
+#check
+{
+    display:none;
+}
+@media  (max-width:952px)
+{
+    #header-section
+    {
+    height:9vh;
+    width:100vw;
+    position:fixed;
+    z-index: 100;
+    }
+    #header-section ul li a
+    {
+        font-size:1.2rem;
+    }
+    
+}
+@media(max-width:800px)
+{
+    .checkbtn{
+        display:block;
+        margin-right:50px;
+        margin-top: 20px;;
+    }
+    #header-section
+    {
+    height:12vh;
+    width:100vw;
+    position:fixed;
+    z-index: 100;
+    }
+    #header-section img{
+        float:left;
+        height:5em;
+        width:5em;
+    }
+
+    #header-section ul
+    {
+        position:fixed;
+        width:11em;
+        height:20em;
+        margin-top: 0%;
+        margin-left: 0%;
+        background-color:#EEDDCC;
+        top:50px;
+        right:-100%;
+        transition: all .5s;
+    }
+    #header-section ul li
+    {
+        display:block;
+        text-align: left;
+        overflow-wrap: break-word;
+    }
+    #header-section ul li a
+    {
+        font-size:1em;
+    }
+    #check:checked~ul
+    {
+        right:0%;
+    }
+}
 button {
     color: white;
     padding: 0.7em 1.1em;
