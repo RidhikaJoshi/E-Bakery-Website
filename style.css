@@ -167,12 +167,26 @@ body
         height:40em;
         font-size:30px;
     }
+    #home-section div{
+        color:white;
+        font-size:60px;
+        font-weight: 700;
+        margin:4%;
+    }
+}
+@media(max-width:800px)
+{
+    #home-section
+    {
+        width:100vw;
+        height:40em;
+        font-size:30px;
+    }
     #explore-section
     {
         margin:10px;
     }
 }
-
 #home-section .bn15 {
     font-family: lato,sans-serif;
     font-weight:700;
